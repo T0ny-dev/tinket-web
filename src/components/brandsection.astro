@@ -1,0 +1,23 @@
+---
+import brand from '../config/brand.json'
+---
+
+<div class="brand">
+{
+  brand.map((mark) => (
+  <img src={mark.image} alt="brand frameworks"  height="54">
+  ))
+}
+
+</div>
+
+
+<style lang="css">
+
+.brand {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 103px;
+}
+
+</style>

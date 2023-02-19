@@ -1,0 +1,63 @@
+/*///// use a BEM */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  height: 80px;
+  border-bottom: 3px solid transparent;
+  border-image: linear-gradient(0.25turn, rgba(222,230,59), rgba(54,195,162));
+    border-image-slice: 1;
+  position: fixed;
+  width: 100%;
+  z-index:1;
+}
+
+.navbar__logo img {
+  width: 85%;
+  cursor: pointer;
+  padding-left: 54px;
+}
+
+.navbar__links {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  margin-right: 54px;
+  
+}
+
+.navbar__links a {
+  margin-left: 54px;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 300;
+  color: #444252;
+}
+.navbar__links a:hover {
+  font-weight: 400;
+}
+.navbar__links img {
+  margin-top: 2px;
+}
+
+.navbar__button {
+  padding-right: 54px;
+}
+
+.button__primary {
+  background-color: #1CBE9D;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
+.button__primary:hover {
+  background-color: #1eaf92;
+}

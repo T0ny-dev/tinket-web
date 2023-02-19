@@ -1,0 +1,21 @@
+---
+import MainLayout from '../components/layout/layout.astro'
+import Hero from '../components/ReactComponents/Hero/Hero'
+import Brand from '../components/brandsection.astro'
+import Host from '../components/hostbrand.astro'
+import Community from '../components/comunity.astro'
+import CallAction from '../components/callaction.astro'
+import Blog from '../components/blog.astro'
+import Form from '../components/ReactComponents/Form/Form.jsx'
+---
+
+
+<MainLayout>
+	<Hero/>
+	<Brand/>
+	<Host/>
+	<Community/>
+	<CallAction/>
+  <Blog/>
+	<Form client:load />
+</MainLayout>

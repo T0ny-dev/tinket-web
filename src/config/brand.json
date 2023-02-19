@@ -1,0 +1,26 @@
+[
+  {
+    "title":"Astro",
+    "image":"/astro.png"
+  },
+  {
+    "title":"React",
+    "image":"/react.png"
+  },
+  {
+    "title":"Flutter",
+    "image":"/Flutter.png"
+  },
+  {
+    "title":"Dart",
+    "image":"/dart.png"
+  },
+  {
+    "title":"Laravel",
+    "image":"/laravel.png"
+  },
+  {
+    "title":"Node",
+    "image":"/node.png"
+  }
+]

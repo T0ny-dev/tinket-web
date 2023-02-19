@@ -1,0 +1,12 @@
+.Form {
+  padding: 90px 54px;
+}
+
+.Form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__double {
+  display: flex;
+}

@@ -1,0 +1,56 @@
+---
+import blog from '../config/blog.json'
+---
+<!--this part call json blog in configure with .map -->
+<div class="blog">
+  <h2>En que estamos trabajando</h2>
+  <p>Ultimas noticas sobre Tinket Studio</p>
+  <div class="blog__section">
+    {
+      blog.map((item) => (
+        <div class="blog__card">
+          <img src={item.image} alt="blog image">
+          <h3>{item.title}</h3>
+          <p>{item.description}</p>
+        </div>
+      ))
+    }
+  </div>
+</div>
+
+
+<style>
+  .blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 54px;
+  }
+  .blog h2 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .blog__section {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .blog__card {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+  }
+
+  .blog__card h3 {
+    padding: 0px 15px;
+  }
+
+  .blog__card p {
+    padding: 0px 15px;
+  }
+</style>

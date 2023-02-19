@@ -1,0 +1,24 @@
+[
+  {
+    "title":"¿Que es Wordpress?",
+    "image":"/Wordpress.png",
+    "description":"Aprende sobre el CMS mas usado para sitios web"
+  },
+  {
+    "title":"Herramientas de Pentesting",
+    "image":"/parrotOS.png",
+    "description":"Review a ParrotOS ara 5.1"
+  },
+  {
+    "title":"Stability.ai",
+    "image":"/Wordpress.png",
+    "description":"Genera tus primeras imagenes con IA"
+    
+  },
+  {
+    "title":"Conoce LarnU",
+    "image":"/LarnUBlog",
+    "description":"El doulingo para aprender a programar"
+    
+  }
+]
